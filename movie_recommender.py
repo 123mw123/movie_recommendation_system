@@ -105,6 +105,6 @@ for i in range(my_preds.shape[0]):
         my_preds[i] = 0
 
 print("movie predictions:")
-for i in range(1682):
+for i in range(my_preds.shape[0]):
     j = int(idx[i])
     print int(my_preds[j]), movie_idx[j]
